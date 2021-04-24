@@ -15,7 +15,7 @@
    - ![](IMG/WP.jpg)<br/>
 ## 1.9 Kubernetes <br/>
 ### Результат работы простейшей программы найденной в интернете
-   - [Kubernetes files](Docker/Kubernetes) <br/>
+   - [__Kubernetes files__](Docker/Kubernetes) <br/>
    - ![](IMG/kubektl.jpg)<br/>
 ### - Пометка <br/>
 По неизвестной мне причине после перезагрузки системы при выполнении аналогичных действий для запуска Kubernetes-a. Появляется вот эта ошибка - при выполнении команды __kubectl apply ingress.yaml__ <br/> 
