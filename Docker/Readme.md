@@ -17,10 +17,4 @@
 ### Результат работы простейшей программы найденной в интернете
    - [__Kubernetes files__](Kubernetes) <br/>
    - ![](../IMG/kubektl.jpg)<br/>
-### - Пометка <br/>
-По неизвестной мне причине после перезагрузки системы при выполнении аналогичных действий для запуска Kubernetes-a. Появляется вот эта ошибка - при выполнении команды __kubectl apply ingress.yaml__ <br/> 
-[ingress file](Kubernetes/kube/ingress.yaml)<br/>
-Ошибка: __Error from server (InternalError): error when creating "ingress.yaml": Internal error occurred: failed calling webhook "validate.nginx.ingress.kubernetes.io": an error on the server ("") has prevented the request from succeeding <br/>
-   Эта ошибка происходит при попытке запустить ingress file__. <br/>
-При том что  __deployments и service__ файлы без проблем запускаются. <br/>
-   __UPD__ Проверил, Nginx.ingress.controller Почему-то не устанавливается при выполнении команды __minikube addons enable ingress__. Хотя при установке пишется что он ставится :( 
+
